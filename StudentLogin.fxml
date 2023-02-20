@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="700.0" prefWidth="500.0" style="-fx-background-color: #eb984e;" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.HomeController">
+   <children>
+      <FontAwesomeIconView glyphName="USERS" layoutX="213.0" layoutY="206.0" size="70" />
+      <Text layoutX="171.0" layoutY="251.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Student Login" underline="true">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Text>
+      <TextField layoutX="176.0" layoutY="285.0" prefHeight="40.0" prefWidth="159.0" promptText="Email">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextField>
+      <PasswordField layoutX="176.0" layoutY="340.0" prefHeight="40.0" prefWidth="159.0" promptText="Password">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </PasswordField>
+      <Button fx:id="loginStudent" layoutX="222.0" layoutY="410.0" mnemonicParsing="false" onAction="#handle" prefHeight="32.0" prefWidth="67.0" style="-fx-background-color: #3498db;" text="Login">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

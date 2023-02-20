@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="310.0" prefWidth="662.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.HomeController">
+   <children>
+      <Label layoutX="37.0" layoutY="32.0" prefHeight="36.0" prefWidth="86.0" style="-fx-background-color: #17a589;" text="Results">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="37.0" layoutY="84.0" prefHeight="36.0" prefWidth="153.0" text="1. Bangla   :    A" textFill="#17a589">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="38.0" layoutY="120.0" prefHeight="36.0" prefWidth="153.0" text="2. English  :    A+" textFill="#17a589">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="37.0" layoutY="156.0" prefHeight="36.0" prefWidth="153.0" text="3. Math     :     A+" textFill="#17a589">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="38.0" layoutY="192.0" prefHeight="36.0" prefWidth="153.0" text="4. Science :     A" textFill="#17a589">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="37.0" layoutY="228.0" prefHeight="36.0" prefWidth="153.0" text="5. ICT        :      B" textFill="#17a589">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
